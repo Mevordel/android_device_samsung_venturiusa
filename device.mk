@@ -12,15 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
-# This file is the device-specific product definition file for
-# venturi USA. It lists all the overlays, files, modules and properties
-# that are specific to this hardware: i.e. those are device-specific
-# drivers, configuration files, settings, etc...
-
-# Inherit the common configuration
+# Inherit common configuration
 $(call inherit-product, device/samsung/venturi/device_base.mk)
-
-# Capacitive Buttons
-PRODUCT_COPY_FILES += \
-#    device/samsung/venturiusa/:system/
